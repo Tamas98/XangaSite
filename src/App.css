@@ -1,0 +1,132 @@
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+#awardLogo>p{
+    position:absolute;
+}
+
+#awardLogo{
+    height:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    max-width:18rem;
+    margin: 1rem;
+    float: right;
+    box-shadow: 7.5px 7.5px 20px gray;
+}
+
+@media screen and (max-width: 900px) and (min-width:576px){
+    .location{
+        align-content: center;
+        max-width: 18rem;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width:300px){
+    .location{
+        align-content: center;
+        max-width: 18rem;
+    }
+}
+
+#awards{
+    text-align:center;
+    color:white;
+    border: 10px solid rgb(82,94,157);
+    margin: 1rem;
+    max-width: 27%;
+    width: auto;
+    height: 17rem;
+    vertical-align: top;
+    background-color:rgb(66,79,135);
+    font-size: 0.8rem
+}
+
+#awardPanel{
+    padding-bottom: 7rem;
+    padding-left: 5rem
+}
+
+.stick{
+    padding:3rem 0.1rem;
+    background-color:rgb(218,236,253);
+    width:10%;
+    position:absolute;
+    left: 35px
+}
+
+#about{
+    background-color:rgb(237,246,255);
+    padding:4rem 4rem
+}
+
+@media screen and (max-width:991px) and (min-width:576px){
+    #about{
+        padding:5rem 1rem;
+    }
+    .stick{
+        padding: 4rem 0.1rem;
+        left: 37px;
+    }
+}
+
+#news{
+    display:flex;
+    justify-content:center;
+    padding: 0;
+    margin:-13rem auto 2rem auto
+}
+
+@media screen and (max-width:900px){
+    #awards{
+        max-width: 90%;
+    }
+    #awardPanel{
+        padding-left: 0;
+        justify-content: center
+    }
+    #news{
+        display:inline;
+    }
+}
+
+#data>div>p{
+    margin:0
+}
+
+#workimgs>img{
+    margin:1rem;
+    margin-top:0;
+}
+
+@media screen and (max-width:900px){
+    #workimgs>img{
+        margin: 1rem 0rem
+    }
+
+    #projects{
+        justify-content: center
+    }
+}
+
+.titles{
+    font-size: 0.8rem;
+    color: midnightblue;
+    font-weight: bold;
+    margin-bottom: 0
+}
+
+.desc{
+    font-size:0.7rem;
+}
+
+.desc:last-of-type{
+    margin-bottom:'0'
+}
