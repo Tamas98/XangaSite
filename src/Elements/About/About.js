@@ -53,7 +53,7 @@ class About extends React.Component{
         return[
             <Bsc class="container" style={{margin:this.props.mobile?'0':'-13rem auto 5rem'}}>
                 <Bsc class="row">
-                    <LeftSide events={this.state.events}/>
+                    <LeftSide mobile={this.props.mobile} events={this.state.events}/>
                     <Members members={this.state.members}/>
                 </Bsc>
             </Bsc>,

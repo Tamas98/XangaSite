@@ -13,8 +13,8 @@ const LeftSide = props =>{
 
         timeLine.push(
             props.events.length-1 !== i ? 
-            <Event year={event.year} event={event.event} last={false}/>:
-            <Event year={event.year} event={event.event} last={true}/>
+            <Event mobile={props.mobile} year={event.year} event={event.event} last={false}/>:
+            <Event mobile={props.mobile} year={event.year} event={event.event} last={true}/>
             )
     }
 
